@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu a {
+    color: #777 !important;
+}
+
+.btn-group > .btn:first-child {
+    margin-left: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: -2rem;
+    list-style: none;
+}
+
+input {}
+
+.TopperArea {
+    padding: 15px 0;
+}
+
+.leftTopper {
+    display: flex;
+    margin-left: 20px;
+}
+
+.topSearch {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.logo a {
+    color: #E55400;
+    text-decoration: none;
+    font-family: -webkit-pictograph;
+
+
+}
+
+.inputThree {
+    padding: 5px;
+    width: 70px;
+    border-color: #F56400;
+    color: #F56400;
+}
+
+.inputThree:hover {
+    background: #fff;
+    border-color: #F56400;
+    color: #F56400;
+}
+
+.leftTopper .inputOne {
+    padding: 3px;
+    width: 365px;
+
+}
+
+.leftTopper .inputTwo {
+    width: 79px;
+    padding: 3px 0;
+    margin-left: -6px;
+    background: #ff6905;
+    border-color: #ff6905;
+    color: #fff;
+    font-weight: 400;
+}
+
+.logo a h1 {}
+
+.topperMenu {
+    float: right;
+}
+
+.TopperArea ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+.TopperArea ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.TopperArea ul li p {
+    margin-top: -7px;
+    font-size: 13px;
+    color: #666;
+}
+
+.TopperArea ul li i {
+    font-size: 22px;
+    color: #666666;
+}
+
+.TopperArea ul li a {
+    color: #E55400;
+    font-size: 15px;
+}
+
+.col-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    margin-top: 10px;
+}
+
+.mainContentArea {
+    margin-top: 50px;
+}
+
+.mainContentArea i {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.mainContentTop img {
+    height: 300px;
+}
+
+.mainContentBottom {
+    margin-top: 50px;
+}
+
+/*Popular-Right-Now-Start*/
+
+.popularArea {
+    margin: 100px 0;
+}
+
+.popularArea img {
+    position: absolute;
+    padding: 10px;
+}
+
+.popularArea i {
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    float: right;
+    margin: 10px -12px;
+
+}
+
+.popularArea:hover i {
+    display: block;
+}
+
+.popularAreaContent ul li i {
+    float: left;
+
+}
+
+.popularAreaContent h4 {
+    margin-top: -15px;
+    font-size: 15px;
+    color: #ffa300;
+}
+
+.popularAreaContent h4 span {
+    color: #000;
+}
+
+/*Popular-Right-Now-End*/
+
+/*Shop-for-gifts-Start*/
+
+.giftArea {
+    margin-bottom: 50px;
+}
+
+.giftTop {
+    display: flex;
+
+}
+
+.giftItem {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.giftTop h1 {
+    padding: 20px;
+
+}
+
+.giftTop h1 a {
+    color: #000;
+}
+
+.giftArea .giftItem a {
+    padding: 20px 40px;
+}
+
+/*Shop-for-gifts-End*/
+
+.easyKeepArea {
+    padding: 50px 0;
+    background: #FF883E;
+}
+
+.easyKeepArea h5 {
+    margin-top: 70px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.easyKeepArea p {
+    font-size: 12px;
+}
+
+.reviewItem h6 {
+    color: #FF883E;
+    margin-top: -20px;
+
+}
+
+.reviewItem img {
+    border-radius: 50%;
+}
+
+.reviewArea {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.itemOne {
+    padding: 20px;
+}
+
+/*Review-Area-End*/
+
+.sellingAtra {
+    background: #FF883E;
+    color: #fff;
+    text-align: center;
+    height: 280px
+}
+
+.sellingAtra h1 {
+    margin-top: 20%;
+}
+
+.estsyArea {
+    background: #FF883E;
+    margin: 40px 0;
+    height: 250px;
+    color: #fff;
+}
+
+.estsyArea img {
+    padding-top: 40px;
+}
+
+.estsyArea h1 {
+    margin-top: 30%;
+
+}
+
+.footerArea {
+    margin-top: 150px;
+}
+
+.footerArea ul li {
+    list-style: none;
+
+}
+
+.footerArea ul li h6 {
+    font-weight: bold;
+}
+
+.footerArea .footerMenu {
+    margin: 50px 0;
+}
+
+.footerArea ul li a {
+    color: #000;
+}
+
+.creaditArea a {
+    color: #636e72;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*cloth page css start*/
+
+.clothing-top ul {
+    display: flex;
+    margin: 15px 0;
+}
+
+.clothing-top ul li a {
+    font-size: 12px;
+    color: #777;
+    font-family: arial;
+    text-transform: capitalize;
+}
+
+.clothing-top ul li:last-child a {
+    text-decoration: none;
+}
+
+.clothing-top h3 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+
+.clothing-item {
+    position: ;
+
+}
+
+.clothing-item img {
+    border-radius: 2px;
+    position: relative;
+
+}
+
+.clothing-item i {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    font-size: 25px;
+    color: #fff;
+    display: none;
+    transition: .5s;
+}
+
+.clothing-item:hover i {
+    display: block;
+    transition: .5s;
+}
+
+.clothing-item-bottom p {
+    margin-bottom: -4px;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.clothing-p2 {
+    font-size: 13px;
+    color: #777;
+    font-family: 'Noto Serif', serif;
+
+
+}
+
+.clothing-p3 {
+    color: #FFA300;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.clothing-item-bottom p span {
+    color: #777;
+    font-size: 13px;
+    font-family: 'Noto Serif', serif;
+}
+
+/*Sideber*/
+
+.sidebar {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 0 20px;
+}
+
+.sidebar ul li a {
+    color: #000;
+    font-size: 13px;
+}
+
+.btn-outline-secondary {
+    background: #fff !important;
+    color: #777 !important;
+}
+
+.btn-outline-secondary:hover {
+    background: #fff !important;
+    color: #777 !important;
+}
+
+.step1 {
+    padding: 20px 50px;
+}
+
+.step1 > ul > p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
